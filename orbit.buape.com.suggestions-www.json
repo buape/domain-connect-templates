@@ -4,6 +4,7 @@
 	"serviceId": "suggestions-www",
 	"serviceName": "Suggestions www custom domain",
 	"version": 1,
+	"logoUrl": "https://cdn.buape.com/orbit/logo.svg",
 	"description": "Connect www to an Orbit suggestions board and redirect the apex domain to www.",
 	"syncBlock": false,
 	"shared": false,

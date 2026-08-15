@@ -4,6 +4,7 @@
 	"serviceId": "suggestions",
 	"serviceName": "Suggestions custom domain",
 	"version": 1,
+	"logoUrl": "https://cdn.buape.com/orbit/logo.svg",
 	"description": "Connect a subdomain to an Orbit suggestions board.",
 	"syncBlock": false,
 	"shared": false,
