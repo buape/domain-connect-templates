@@ -20,6 +20,12 @@
 			"type": "REDIR301",
 			"host": "@",
 			"target": "https://www.%domain%"
+		},
+		{
+			"type": "A",
+			"host": "@",
+			"pointsTo": "192.0.2.1",
+			"ttl": 300
 		}
 	]
 }
