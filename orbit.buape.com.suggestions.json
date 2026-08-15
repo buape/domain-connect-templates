@@ -1,0 +1,21 @@
+{
+	"providerId": "orbit.buape.com",
+	"providerName": "Orbit",
+	"serviceId": "suggestions",
+	"serviceName": "Suggestions custom domain",
+	"version": 1,
+	"description": "Connect a subdomain to an Orbit suggestions board.",
+	"syncBlock": false,
+	"shared": false,
+	"syncPubKeyDomain": "orbit.buape.com",
+	"syncRedirectDomain": "orbit.buape.com",
+	"hostRequired": true,
+	"records": [
+		{
+			"type": "CNAME",
+			"host": "@",
+			"pointsTo": "orbit-cname.buape.com",
+			"ttl": 300
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"providerId": "orbit.buape.com",
+	"providerName": "Orbit",
+	"serviceId": "suggestions-www",
+	"serviceName": "Suggestions www custom domain",
+	"version": 1,
+	"description": "Connect www to an Orbit suggestions board and redirect the apex domain to www.",
+	"syncBlock": false,
+	"shared": false,
+	"syncPubKeyDomain": "orbit.buape.com",
+	"syncRedirectDomain": "orbit.buape.com",
+	"records": [
+		{
+			"type": "CNAME",
+			"host": "www",
+			"pointsTo": "orbit-cname.buape.com",
+			"ttl": 300
+		},
+		{
+			"type": "REDIR301",
+			"host": "@",
+			"target": "https://www.%domain%"
+		}
+	]
+}
